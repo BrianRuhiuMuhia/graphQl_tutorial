@@ -17,6 +17,11 @@ return db.people
         area:()=>
         {
 return db.area
+        },
+        place:(_,args)=>{
+            return db.area.find((place)=>{
+                return place.id===args.id
+            })
         }
     }
 }

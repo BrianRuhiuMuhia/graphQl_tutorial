@@ -14,12 +14,12 @@ age:21},{
 ]
 const area=[
     {
-        id:1,
+        id:"1",
         country:"Kenya",
         county:"Kiambu"
     },
     {
-        id:2,
+        id:"2",
         country:"Kenya",
         county:"Nairobi"
     },

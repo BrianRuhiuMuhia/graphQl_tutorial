@@ -14,5 +14,6 @@ type Query{
     people:[People]
     person(id:ID!):People
     area:[Area]
+    place(id:ID!):Area
 }`
 export default typeDefs
