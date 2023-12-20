@@ -23,7 +23,16 @@ return db.area
                 return place.id===args.id
             })
         }
+    },
+    People:{
+        area:(parent)=>{
+return db.area.find((a)=>{
+return a.id===parent.id
+})
+        }
     }
+
+  
 }
 const server=new ApolloServer({
 typeDefs:typeDefs,

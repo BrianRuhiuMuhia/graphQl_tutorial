@@ -1,15 +1,20 @@
 const people=[
     {id:"1",
     name:"brian",
-age:21},{
+age:21,
+area_id:"2"
+},
+{
     id:"2",
     name:"eugene",
-    age:23
+    age:23,
+    area_1d:"1"
 },
 {
     id:"3",
     name:"brandon",
-    age:20
+    age:20,
+    area_1d:"1"
 }
 ]
 const area=[

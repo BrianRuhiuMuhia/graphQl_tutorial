@@ -3,12 +3,12 @@ type People{
 id:ID!
 name:String!
 age:Int!
+area:Area!
 },
 type Area{
-id:ID
+id:ID!
 country:String!
 county:String!
-
 }
 type Query{
     people:[People]
